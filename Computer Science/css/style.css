@@ -479,7 +479,8 @@ header {
 }
 
 main {
-    background-color: var(--purple);
+ .main{
+   background-color: var(--purple);
     padding: 30px 20px 120px 20px;
 
     h1 {
@@ -572,9 +573,9 @@ main {
             }
         }
     }
-}
-
-.cards {
+ }
+ 
+ .cards {
     background-color: var(--purple);
     padding: 30px 20px 120px 20px;
 
@@ -668,6 +669,9 @@ main {
         }
     }
 
+}
+
+ 
 }
 
 footer {
